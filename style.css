@@ -1,0 +1,171 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+hr {
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+
+
+/*----------------------- header -----------------------*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-flow: column wrap;
+    /* flex to center the header */
+    font-weight: 900;
+    /* bold font */
+    text-transform: lowercase;
+    text-align: center;
+    padding: 19px;
+    /* padding to make it look more beautiful */
+}
+
+header h1 {
+    font-size: 64px;
+    line-height: 0.7;
+    letter-spacing: -5px;
+}
+
+header h3 {
+    text-align: text-center;
+    letter-spacing: -1px;
+    padding-bottom: 32px;
+}
+
+/*----------------------- header end -----------------------*/
+
+/*----------------------- main container -----------------------*/
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.cleaning-kit-bundle-img {
+    max-width: 100%;
+}
+
+.cleaning-kit-bundle {
+    padding-top: 8px;
+    padding-right: 218px;
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 47px;
+}
+
+.cleaning-kit-bundle h3, h5 {
+    font-weight: 700;
+}
+
+.stars {
+    color: #E8C61E;
+}
+
+.happy-customers {
+    font-weight: 200;
+    font-size: 10px;
+}
+
+.cleaning-kit-bundle h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+.cleaning-kit-bundle h5 {
+    padding-top: 21px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+li {
+    text-align: left;
+    padding-top: 8px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.inside-list {
+    padding-bottom: 8px;
+}
+
+.check {
+    font-size: 10px;
+    margin-right: 3px;
+    padding: 1px 3px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.numbered {
+    font-size: 10px;
+    margin-right: 3px;
+    padding: 1px 4px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.bolded {
+    font-weight: 700
+}
+
+.bundle-price {
+    text-align: center;
+}
+
+.bundle-price h4 {
+    padding-top: 12px;
+    font-size: 14px;
+}
+
+.bundle-price h4 .strikethrough {
+    text-decoration: line-through;
+    padding-right: 6px;
+}
+
+.bundle-price h4 .yellow-bolded {
+    font-weight: 700;
+    font-size: 16px;
+    color: #E8C61E;
+}
+
+.bundle-price p {
+    font-style: italic;
+}
+
+.bundle-price button {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    background-color: #E8C61E;
+    padding: 12px;
+    width: 360px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-bottom: 64px;
+    border-radius: 4%;
+    box-shadow: -6px 13px 34px -11px rgba(0,0,0,0.65);
+}
