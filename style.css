@@ -169,3 +169,47 @@ li {
     border-radius: 4%;
     box-shadow: -6px 13px 34px -11px rgba(0,0,0,0.65);
 }
+
+.bundle-container {
+    padding: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bundle-container h1 {
+    font-weight: 900;
+    font-size: 23px;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+
+.bundle-selection a {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-right: 21px;
+}
+
+.bundle-selection a:focus, a:hover, a:active {
+    color: #E8C61E;
+}
+
+.bundle-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 400px;
+}
+
+.bundle-content p {
+    text-align: left;
+    padding-top: 16px;
+}
+
+.bundle-content img {
+    float: left;
+    max-width: 100%;
+}
