@@ -22,14 +22,14 @@ header {
     justify-content: center;
     align-items: center;
     align-content: center;
-    flex-flow: column wrap;
     /* flex to center the header */
-    font-weight: 900;
+    flex-flow: column wrap;
     /* bold font */
+    font-weight: 900;
     text-transform: lowercase;
     text-align: center;
-    padding: 19px;
     /* padding to make it look more beautiful */
+    padding: 19px;
 }
 
 header h1 {
@@ -170,6 +170,10 @@ li {
     box-shadow: -6px 13px 34px -11px rgba(0,0,0,0.65);
 }
 
+/*----------------------- main container end -----------------------*/
+
+/*----------------------- bundle container -----------------------*/
+
 .bundle-container {
     padding: 79px;
     display: flex;
@@ -213,3 +217,5 @@ li {
     float: left;
     max-width: 100%;
 }
+
+/*----------------------- bundle container end -----------------------*/
